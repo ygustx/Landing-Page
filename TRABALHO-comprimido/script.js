@@ -1,0 +1,1 @@
+let slideIndex=0;showSlides();function showSlides(){let a=document.querySelectorAll(".slides img");for(let b=0;b<a.length;b++)a[b].style.display="none";slideIndex++,slideIndex>a.length&&(slideIndex=1),a[slideIndex-1].style.display="block",setTimeout(showSlides,2e3)}
